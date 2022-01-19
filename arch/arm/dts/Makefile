@@ -470,6 +470,7 @@ dtb-$(CONFIG_ARCH_IMX8M) += fsl-imx8mq-evk.dtb \
 		fsl-imx8mm-ddr4-evk.dtb \
 		fsl-imx8mm-ddr4-val.dtb \
 		fsl-imx8mm-evk.dtb \
+		fsl-mydc8mmq68e2d.dtb \
 		fsl-imx8mn-ddr4-evk.dtb \
 		fsl-imx8mn-evk.dtb
 
