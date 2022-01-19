@@ -1,0 +1,14 @@
+if TARGET_IMX8MM_EVK || TARGET_I2SOM_MYDC8MMX
+
+config SYS_BOARD
+	default "myd_c8mmx"
+
+config SYS_VENDOR
+	default "i2som"
+
+config SYS_CONFIG_NAME
+	default "i2som_mydc8mmx"
+
+source "board/i2som/common/Kconfig"
+
+endif
